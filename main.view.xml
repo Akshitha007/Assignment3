@@ -1,0 +1,26 @@
+<core:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.ibm.simpleapp.controller.main">
+<form:SimpleForm>
+<form:content>
+<core:Title text="Personal details"/>
+<Label text="Name"/>
+<Input />
+<Label text="Last name"/>
+<Input/>
+<Label text="Mail address"/>
+<Input/>
+<Label text="Phone number"/>
+<Input type="Tel"/>
+
+<core:Title text="Office details"/>
+<Label text="Company name"/>
+<Input/>
+<Label text="Company website"/>
+<Input type="Url"/>
+<Label text="Company phone number"/>
+<Input type="Tel"/>
+<Label text="Company addrress"/>
+<Input type="Text"/>
+</form:content>
+</form:SimpleForm>
+
+</core:View>
