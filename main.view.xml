@@ -1,4 +1,4 @@
-<core:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:form="sap.ui.layout.form" controllerName="com.ibm.simpleapp.controller.main">
+<core:View xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:form="sap.ui.layout.form" controllerName="com.ibm.simpleapp.controller.main">
 <form:SimpleForm>
 <form:content>
 <core:Title text="Personal details"/>
